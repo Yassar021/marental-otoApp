@@ -6,7 +6,7 @@ const Home = ({children, pageTitle}) => {
     return ( 
         <>
         <Head>
-            <title>Marental-oto | {pageTitle}</title>
+            <title>MarentalOto | {pageTitle}</title>
         </Head>
         <Navbar />
         <Container maxW='8xl'>

@@ -10,10 +10,10 @@ const Navbar = () => {
                     </Link>
                     <Show above='lg'>
                         <Link href='/' _hover={{textDecor:'none'}}>
-                            <Text fontSize={'16'} fontWeight='400' letterSpacing={'0.1em'}>Beranda</Text>
+                            <Text mt={{lg:'10px'}} fontSize={'16'} fontWeight='400' letterSpacing={'0.1em'}>Beranda</Text>
                         </Link>
                         <Link href='/testimoni' _hover={{textDecor:'none'}}>
-                            <Text fontSize={'16'} fontWeight='400' letterSpacing={'0.1em'}>Testimoni</Text>
+                            <Text mt={{lg:'10px'}} fontSize={'16'} fontWeight='400' letterSpacing={'0.1em'}>Testimoni</Text>
                         </Link>
                     </Show>
                 </Stack>

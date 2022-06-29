@@ -1,9 +1,9 @@
-import Beranda from "../components/Beranda"
+import DaftarKendaraan from "../components/Dashboard/Admin"
 
 const Index = () => {
   return( 
   <>
-    <Beranda />
+    <DaftarKendaraan />
   </>  
   )
 }
