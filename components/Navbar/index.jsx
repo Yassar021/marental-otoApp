@@ -6,13 +6,13 @@ const Navbar = () => {
             <Flex py='40px' px='20px' justifyContent={'space-between'} justify='center' >
                 <Stack direction={'row'} spacing='40px'>
                     <Link href='/' _hover={{textDecor:'none'}}>
-                        <Text fontSize={'26'} fontWeight='600' letterSpacing={'0.1em'}>MarentalOto</Text>
+                        <Text fontSize={'26'} fontWeight='600' letterSpacing={'0.1em'}>Marental-Oto</Text>
                     </Link>
                     <Show above='lg'>
                         <Link href='/' _hover={{textDecor:'none'}}>
                             <Text fontSize={'16'} fontWeight='400' letterSpacing={'0.1em'}>Beranda</Text>
                         </Link>
-                        <Link href='/' _hover={{textDecor:'none'}}>
+                        <Link href='/testimoni' _hover={{textDecor:'none'}}>
                             <Text fontSize={'16'} fontWeight='400' letterSpacing={'0.1em'}>Testimoni</Text>
                         </Link>
                     </Show>
