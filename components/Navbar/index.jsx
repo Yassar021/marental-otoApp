@@ -19,7 +19,7 @@ const Navbar = () => {
                 </Stack>
                 <Show above='lg'>
                     <Stack direction={'row'} spacing='20px'>
-                        <Link href='/' _hover={{textDecor:'none'}}>
+                        <Link href='/register' _hover={{textDecor:'none'}}>
                             <Button 
                                 size='md'
                                 height='48px'
@@ -35,7 +35,7 @@ const Navbar = () => {
                                 Daftar
                             </Button>
                         </Link>
-                        <Link href='/' _hover={{textDecor:'none'}}>
+                        <Link href='/login' _hover={{textDecor:'none'}}>
                             <Button 
                                 size='md'
                                 height='48px'

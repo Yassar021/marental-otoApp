@@ -12,8 +12,6 @@ const Beranda = () => {
                 <CardRental image={'/car.jpg'} nameCar={'Pajero Sport'} dateIn={'14 Nov 2022'} />
                 <CardRental image={'/car.jpg'} nameCar={'Pajero Sport'} dateIn={'14 Nov 2022'} />
                 <CardRental image={'/car.jpg'} nameCar={'Pajero Sport'} dateIn={'14 Nov 2022'} />
-                <CardRental image={'/car.jpg'} nameCar={'Pajero Sport'} dateIn={'14 Nov 2022'} />
-                <CardRental image={'/car.jpg'} nameCar={'Pajero Sport'} dateIn={'14 Nov 2022'} />
             </SimpleGrid>
         </Home>
     )
