@@ -1,10 +1,9 @@
-const { Box } = require("@chakra-ui/react")
+import Beranda from "../components/Beranda"
 
 const Index = () => {
   return( 
   <>
-    <Box></Box>
-  
+    <Beranda />
   </>  
   )
 }
