@@ -51,6 +51,9 @@ const Navbar = () => {
                                 Masuk
                             </Button>
                         </Link>
+                        <Link href='/pengguna' _hover={{textDecor:'none'}}>
+                            <Text fontSize={'22'} fontWeight='700'>Praja</Text>
+                        </Link>
                     </Stack>
                 </Show>
                 
