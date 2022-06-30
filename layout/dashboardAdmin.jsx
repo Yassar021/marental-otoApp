@@ -14,19 +14,19 @@ const DashboardAdmin = ({pageTitle, children}) => {
                     <Box>
                         <Image mx='auto' borderRadius={'50%'} src='/pp.png' w='120px' h='120px' alt='profile-picture' />
                     </Box>
-                    <Link href='#' _hover={{textDecor:'none'}}>
+                    <Link href='/dashboardAdmin' _hover={{textDecor:'none'}}>
                         <Text fontSize={'18'} fontWeight={'600'}>Daftar Kendaraan</Text>
                     </Link>
-                    <Link href='#' _hover={{textDecor:'none'}}>
+                    <Link href='/daftarPemilik' _hover={{textDecor:'none'}}>
                         <Text fontSize={'18'} fontWeight={'400'}>Daftar Pemilik</Text>
                     </Link>
-                    <Link href='#' _hover={{textDecor:'none'}}>
+                    <Link href='/transaksi' _hover={{textDecor:'none'}}>
                         <Text fontSize={'18'} fontWeight={'400'}>Transaksi</Text>
                     </Link>
-                    <Link href='#' _hover={{textDecor:'none'}}>
+                    <Link href='/konfigurasiAdmin' _hover={{textDecor:'none'}}>
                         <Text fontSize={'18'} fontWeight={'400'}>Konfigurasi</Text>
                     </Link>
-                    <Link href='#' _hover={{textDecor:'none'}}>
+                    <Link href='/testimoniAdmin' _hover={{textDecor:'none'}}>
                         <Text fontSize={'18'} fontWeight={'400'}>Testimoni</Text>
                     </Link>
                 </Stack>
