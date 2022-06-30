@@ -49,7 +49,7 @@ const TestimoniAdmin = () => {
                 </Stack>
             </Flex>
 
-                <SimpleGrid mt='20px' columns={3} spacing='20px'>
+                <SimpleGrid mt='20px' columns={{base:1,md:2,lg:3,xl:4,}} spacing='20px'>
                     <CardTestimoni />
                     <CardTestimoni />
                     <CardTestimoni />

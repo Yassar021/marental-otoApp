@@ -74,7 +74,7 @@ const DaftarPemilik = () => {
                     </TabList>
                     <TabPanels>
                         <TabPanel>
-                            <SimpleGrid mt='20px' columns={3} spacing='20px'>
+                            <SimpleGrid mt='20px' columns={{base:1,md:1,lg:3}} spacing='20px'>
                                 <CardPelanggan image={'/car.jpg'} nameCar={'Pajero Sport'} dateIn={'14 Nov 2022'} />
                                 <CardPelanggan image={'/car.jpg'} nameCar={'Pajero Sport'} dateIn={'14 Nov 2022'} />
                                 <CardPelanggan image={'/car.jpg'} nameCar={'Pajero Sport'} dateIn={'14 Nov 2022'} />
@@ -82,7 +82,7 @@ const DaftarPemilik = () => {
                             </SimpleGrid>
                         </TabPanel>
                         <TabPanel>
-                            <SimpleGrid mt='20px' columns={3} spacing='20px'>
+                            <SimpleGrid mt='20px' columns={{base:1,md:1,lg:3}} spacing='20px'>
                                 <CardPemilikKendaraan image={'/car.jpg'} nameCar={'Pajero Sport'} dateIn={'14 Nov 2022'} />
                                 <CardPemilikKendaraan image={'/car.jpg'} nameCar={'Pajero Sport'} dateIn={'14 Nov 2022'} />
                                 <CardPemilikKendaraan image={'/car.jpg'} nameCar={'Pajero Sport'} dateIn={'14 Nov 2022'} />

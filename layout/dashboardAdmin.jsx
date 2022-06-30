@@ -9,10 +9,10 @@ const DashboardAdmin = ({pageTitle, children}) => {
         </Head>
 
         <Flex direction={'row'}>
-            <Box w='265px' h='100vh' bgColor={'#011627'} pt='45px' px='20px'>
+            <Box w='265px' h={{md:'130vh',lg:'116vh',xl:'100vh'}} bgColor={'#011627'} pt='45px' px='20px'>
                 <Stack direction={'column'} spacing='40px'>
                     <Box>
-                        <Image mx='auto' borderRadius={'50%'} src='/pp.png' w='120px' h='120px' alt='profile-picture' />
+                        <Image mx='auto' borderRadius={'50%'} src='/pp.png' w={{base:'auto',md:'120px'}} h={{base:'auto',md:'120px'}} alt='profile-picture' />
                     </Box>
                     <Link href='/dashboardAdmin' _hover={{textDecor:'none'}}>
                         <Text fontSize={'18'} fontWeight={'600'}>Daftar Kendaraan</Text>
@@ -32,7 +32,7 @@ const DashboardAdmin = ({pageTitle, children}) => {
                 </Stack>
             </Box>
             <Container maxW='8xl'>
-                <Box w='100%' h='100vh' pt='40px' pl='20px'>
+                <Box w='100%' h='100vh' pt='40px' pl={{md:'4px',lg:'20px'}}>
                     {children}
                 </Box>
             </Container>

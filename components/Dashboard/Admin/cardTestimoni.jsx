@@ -6,7 +6,7 @@ const CardTestimoni = ({rating,pesan,name}) => {
     const { isOpen, onOpen, onClose } = useDisclosure()
 
     return (
-        <Box borderRadius={'12px'} w='240px' h='auto' p='24px' shadow={'lg'} bgColor='#011627' textAlign={'left'}>
+        <Box borderRadius={'12px'} w='100%' h='auto' p='24px' shadow={'lg'} bgColor='#011627' textAlign={'left'}>
             <Flex direction='column' gap='20px'>
                         <Stack>
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

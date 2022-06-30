@@ -1,8 +1,8 @@
 import {Box} from "@chakra-ui/react"
-const UserMobil = () => {
+const Pengguna = () => {
     return (
         <Box></Box>
     )
 }
 
-export default UserMobil
+export default Pengguna

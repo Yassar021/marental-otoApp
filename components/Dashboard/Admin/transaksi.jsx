@@ -75,7 +75,7 @@ const Transaksi = () => {
                     </TabList>
                     <TabPanels>
                         <TabPanel>
-                            <SimpleGrid mt='20px' columns={3} spacing='20px'>
+                            <SimpleGrid mt='20px' columns={{base:1,md:1,lg:3}} spacing='20px'>
                             <CardKendaraan image={'/car.jpg'} nameCar={'Pajero Sport'} dateIn={'14 Nov 2022'} status='Pending' />
                             <CardKendaraan image={'/car.jpg'} nameCar={'Pajero Sport'} dateIn={'14 Nov 2022'} status='Pending' />
                             <CardKendaraan image={'/car.jpg'} nameCar={'Pajero Sport'} dateIn={'14 Nov 2022'} status='Pending' />
@@ -83,7 +83,7 @@ const Transaksi = () => {
                             </SimpleGrid>
                         </TabPanel>
                         <TabPanel>
-                            <SimpleGrid mt='20px' columns={3} spacing='20px'>
+                            <SimpleGrid mt='20px' columns={{base:1,md:1,lg:3}} spacing='20px'>
                                 <CardKendaraan image={'/car.jpg'} nameCar={'Pajero Sport'} dateIn={'14 Nov 2022'} />
                                 <CardKendaraan image={'/car.jpg'} nameCar={'Pajero Sport'} dateIn={'14 Nov 2022'} />
                                 <CardKendaraan image={'/car.jpg'} nameCar={'Pajero Sport'} dateIn={'14 Nov 2022'} />
@@ -91,14 +91,14 @@ const Transaksi = () => {
                             </SimpleGrid>
                         </TabPanel>
                         <TabPanel>
-                            <SimpleGrid mt='20px' columns={3} spacing='20px'>
+                            <SimpleGrid mt='20px' columns={{base:1,md:1,lg:3}} spacing='20px'>
                                 <CardKendaraan image={'/car.jpg'} nameCar={'Pajero Sport'} dateIn={'14 Nov 2022'} />
                                 <CardKendaraan image={'/car.jpg'} nameCar={'Pajero Sport'} dateIn={'14 Nov 2022'} />
                                 <CardKendaraan image={'/car.jpg'} nameCar={'Pajero Sport'} dateIn={'14 Nov 2022'} />
                                 <CardKendaraan image={'/car.jpg'} nameCar={'Pajero Sport'} dateIn={'14 Nov 2022'} />                                
                             </SimpleGrid>
                         </TabPanel><TabPanel>
-                            <SimpleGrid mt='20px' columns={3} spacing='20px'>
+                            <SimpleGrid mt='20px' columns={{base:1,md:1,lg:3}} spacing='20px'>
                                 <CardKendaraan image={'/car.jpg'} nameCar={'Pajero Sport'} dateIn={'14 Nov 2022'} />
                                 <CardKendaraan image={'/car.jpg'} nameCar={'Pajero Sport'} dateIn={'14 Nov 2022'} />
                                 <CardKendaraan image={'/car.jpg'} nameCar={'Pajero Sport'} dateIn={'14 Nov 2022'} />
