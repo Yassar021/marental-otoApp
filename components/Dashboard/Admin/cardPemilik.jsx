@@ -16,7 +16,7 @@ const CardPemilikKendaraan = ({image,nameCar,dateIn}) => {
                     <Text fontSize={'14'} fontWeight='400'>Jln. Makassar</Text>
                 </Box>
                 <VStack spacing='6px'>
-                    <Link href='/detailKendaraan' _hover={{textDecor:'none'}}>
+                    <Link href='/detailPemilik' _hover={{textDecor:'none'}}>
                         <Button 
                             size='md'
                             height='48px'

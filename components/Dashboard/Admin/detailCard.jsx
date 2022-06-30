@@ -44,22 +44,6 @@ const DetailKendaraan = () => {
                             <Input type='number' placeholder='Durasi' />
                         </InputGroup>
                         <Text my='10px' fontSize={'22'}>Total Sewa : Rp.800.000</Text>
-                        <Link href='/pembayaran' _hover={{textDecor:'none'}}>
-                            <Button
-                                size='md'
-                                height='48px'
-                                width='160px'
-                                bgColor='#607B96'
-                                color='#fff'
-                                _hover={{ bg: '#607B96' }}
-                                _active={{
-                                    bg: '#607B96',
-                                    transform: 'scale(0.98)',
-                                }}
-                                >
-                                Sewa
-                            </Button>
-                        </Link>
                     </Box>
                 </Box>
             </Flex>

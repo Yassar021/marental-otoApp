@@ -1,18 +1,22 @@
 /* eslint-disable react/no-children-prop */
 import {Box, Text,Image,Stack, Link, Button, Flex, VStack, useDisclosure, Modal, ModalOverlay, ModalContent, ModalCloseButton, ModalHeader, ModalBody, InputGroup, InputLeftAddon, Input, ModalFooter, HStack} from "@chakra-ui/react";
 
-const CardKendaraan = ({image,nameCar,dateIn,status}) => {
+
+const CardPelanggan = () => {
     const { isOpen, onOpen, onClose } = useDisclosure()
 
-    return ( 
-        <Box borderRadius={'12px'} w='320px' h='auto' p='24px' shadow={'lg'} bgColor='#011627' textAlign={'left'}>
-            <Image src={image} w='100%' h='auto' alt="image-car" />
-            <Stack direction={'column'} spacing={'10px'} mt='10px'>
-                <Text fontSize={'16'} >{nameCar}</Text>
-                <Text fontSize={'16'} >Tanggal Masuk : {dateIn}</Text>
-                <Text fontSize={'16'} >Status : {status}</Text>
-                <HStack spacing='20px'>
-                    <Link href='/detailKendaraan' _hover={{textDecor:'none'}}>
+    return (
+        <Box borderRadius={'12px'} w='400px' h='auto' p='24px' shadow={'lg'} bgColor='#011627' textAlign={'left'}>
+            <Flex direction='row' gap='20px'>
+                <Box>
+                    <Image borderRadius={'50%'} src='/pp.png' w='60px' h='60px' alt='profile-picture' />
+                </Box>
+                <Box w='auto'>
+                    <Text fontSize={'18'} fontWeight='500'>Praja</Text>
+                    <Text fontSize={'14'} fontWeight='400'>Jln. Makassar</Text>
+                </Box>
+                <VStack spacing='6px'>
+                    <Link href='/detailPemilik' _hover={{textDecor:'none'}}>
                         <Button 
                             size='md'
                             height='48px'
@@ -44,39 +48,38 @@ const CardKendaraan = ({image,nameCar,dateIn,status}) => {
                         <Modal isOpen={isOpen} onClose={onClose}>
                             <ModalOverlay />
                             <ModalContent>
-                                <ModalHeader>Edit Kendaraan</ModalHeader>
+                                <ModalHeader>Edit Pelanggan</ModalHeader>
                                 <ModalCloseButton />
                                 <ModalBody>
                                     <Stack spacing='20px'>
                                         <InputGroup>
-                                            <InputLeftAddon children='Pemilik Rental' />
-                                            <Input type='text' placeholder='Pemilik Rental' />
+                                            <InputLeftAddon children='Nama Lengkap' />
+                                            <Input type='text' placeholder='Nama Lengkap' />
                                         </InputGroup>
                                         <InputGroup>
-                                            <InputLeftAddon children='Merk' />
-                                            <Input type='text' placeholder='Merk' />
+                                            <InputLeftAddon children='Tempat Lahir' />
+                                            <Input type='text' placeholder='Tempat Lahir' />
                                         </InputGroup>
                                         <InputGroup>
-                                            <InputLeftAddon children='Warna' />
-                                            <Input type='text' placeholder='Warna' />
+                                            <InputLeftAddon children='Tanggal Lahir' />
+                                            <Input type='date' placeholder='Tanggal Lahir' />
                                         </InputGroup>
                                         <InputGroup>
-                                            <InputLeftAddon children='Tahun' />
-                                            <Input type='text' placeholder='Tahun' />
+                                            <InputLeftAddon children='Foto KTP' />
+                                            <Input type='file' placeholder='Foto KTP' />
                                         </InputGroup>
                                         <InputGroup>
-                                            <InputLeftAddon children='No. Polisi' />
-                                            <Input type='text' placeholder='No. Polisi' />
+                                            <InputLeftAddon children='NIK' />
+                                            <Input type='number' placeholder='NIK' />
                                         </InputGroup>
                                         <InputGroup>
-                                            <InputLeftAddon children='Kapasitas' />
-                                            <Input type='number' placeholder='Kapasitas' />
+                                            <InputLeftAddon children='Alamat' />
+                                            <Input type='text' placeholder='Alamat' />
                                         </InputGroup>
                                         <InputGroup>
-                                            <InputLeftAddon children='Harga Sewa' />
-                                            <Input type='text' placeholder='Harga Sewa' />
+                                            <InputLeftAddon children='No HP' />
+                                            <Input type='number' placeholder='No HP' />
                                         </InputGroup>
-                                        <Input type='file' placeholder='Foto Mobil' />
                                     </Stack>                            
                                 </ModalBody>
                                 <ModalFooter>
@@ -90,10 +93,10 @@ const CardKendaraan = ({image,nameCar,dateIn,status}) => {
                             </ModalContent>
                         </Modal>
                     </Stack>
-                </HStack>
-            </Stack>
+                </VStack>
+            </Flex>
         </Box>
     )
 }
 
-export default CardKendaraan
+export default CardPelanggan

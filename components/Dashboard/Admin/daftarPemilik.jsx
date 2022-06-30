@@ -2,6 +2,7 @@
 import DashboardAdmin from "../../../layout/dashboardAdmin";
 import { Box, Button, Flex, HStack, Image, Input, InputGroup, InputLeftAddon, Link, Modal, ModalBody, ModalCloseButton, ModalContent, ModalFooter, ModalHeader, ModalOverlay, SimpleGrid, Stack, Tab, TabList, TabPanel, TabPanels, Tabs, Text, useDisclosure } from "@chakra-ui/react"
 import CardPemilikKendaraan from "./cardPemilik";
+import CardPelanggan from "./cardPelanggan";
 
 
 const DaftarPemilik = () => {
@@ -74,10 +75,10 @@ const DaftarPemilik = () => {
                     <TabPanels>
                         <TabPanel>
                             <SimpleGrid mt='20px' columns={3} spacing='20px'>
-                                <CardPemilikKendaraan image={'/car.jpg'} nameCar={'Pajero Sport'} dateIn={'14 Nov 2022'} />
-                                <CardPemilikKendaraan image={'/car.jpg'} nameCar={'Pajero Sport'} dateIn={'14 Nov 2022'} />
-                                <CardPemilikKendaraan image={'/car.jpg'} nameCar={'Pajero Sport'} dateIn={'14 Nov 2022'} />
-                                <CardPemilikKendaraan image={'/car.jpg'} nameCar={'Pajero Sport'} dateIn={'14 Nov 2022'} />
+                                <CardPelanggan image={'/car.jpg'} nameCar={'Pajero Sport'} dateIn={'14 Nov 2022'} />
+                                <CardPelanggan image={'/car.jpg'} nameCar={'Pajero Sport'} dateIn={'14 Nov 2022'} />
+                                <CardPelanggan image={'/car.jpg'} nameCar={'Pajero Sport'} dateIn={'14 Nov 2022'} />
+                                <CardPelanggan image={'/car.jpg'} nameCar={'Pajero Sport'} dateIn={'14 Nov 2022'} />
                             </SimpleGrid>
                         </TabPanel>
                         <TabPanel>
